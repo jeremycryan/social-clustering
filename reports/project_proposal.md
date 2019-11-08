@@ -3,15 +3,15 @@
 
 ### Abstract
 Within a population of humans, there tends to be a balance
-of diversity and clustering of opinion. That is, for any 
+of diversity and clustering of opinion — that is, for any 
 continuous stance (say, degree of support for speed limit 
 enforcement) there tend to be social clusters with some
-amount of consensus within them and some amount of variance
-between each cluster.
+amount of consensus within and some amount of variance
+between each cluster. This phenomenon is called pluralism.
 
 Based on prior work in this area, I plan to implement a Python
-model to recreate this clustering behavior, and present results
-using MatPlotLib.
+model to reproduce pluralism in an agent population, and present 
+results using MatPlotLib.
 
 ### The Project
 In a paper titled [Individualization as Driving Force of 
@@ -56,7 +56,7 @@ results that parallel social effects as the Internet closes the
 ![image](https://github.com/jeremycryan/social-clustering/blob/master/images/clustering.png?raw=true)
 
 Shown above is a plot of agent opinion over time for a population
-of 100 agents, taken from the Mäs paper. For my directly
+of 100 agents, taken from the Mäs et al paper. For my directly
 replicated model, I hope to generate results that look similar.
 
 For the extension with spacial information, the 2D plot wouldn't
