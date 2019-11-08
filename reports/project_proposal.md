@@ -51,3 +51,25 @@ are far away. Tuning the strength of this effect may give
 results that parallel social effects as the Internet closes the 
 "distance" separating existing groups and cultures.
 
+### Validation
+
+![image](https://github.com/jeremycryan/social-clustering/blob/master/images/clustering.png?raw=true)
+
+Shown above is a plot of agent opinion over time for a population
+of 100 agents, taken from the Mäs paper. For my directly
+replicated model, I hope to generate results that look similar.
+
+For the extension with spacial information, the 2D plot wouldn't
+be as useful. I suspect that I will end up creating something
+along the lines of an animated heat map, showing agent opinion with
+shades of color and demonstrating it changing over time.
+
+### Bibliography
+
+[**Individualization as Driving Force of Clustering Phenomena in Humans**](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000959)
+
+*Michael Mäs, Andreas Flache, Dirk Helbing*
+
+This paper provides a mathematical model that reproduces pluralism
+in social agents, where agents exhibit clustering behavior with
+some degree of consensus within clusters.
