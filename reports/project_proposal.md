@@ -64,6 +64,13 @@ be as useful. I suspect that I will end up creating something
 along the lines of an animated heat map, showing agent opinion with
 shades of color and demonstrating it changing over time.
 
+### Next Steps
+
+I plan to recreate the original model in the next week and a half or
+so, along with some tools to visualize it and tune some parameters.
+At that point, I hope to have more rigorously defined how I'll add
+spacial information to the model and can begin that implementation.
+
 ### Bibliography
 
 [**Individualization as Driving Force of Clustering Phenomena in Humans**](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000959)
