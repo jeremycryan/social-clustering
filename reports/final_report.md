@@ -188,8 +188,37 @@ axes of opinion.
 
 I tested this model in a 2D opinion space, and had limited success
 reproducing pluralistic behavior. In general, agents grouped together
-in a single 
+in a single cluster, which tended to have regions of higher and lower
+agent density, and occasionally broke off into small clusters of ten or
+fewer agents.
 
+You can see an animated version of this plot over time in the Jupyter
+notebook in this repository.
+
+![Image of clustering](https://github.com/jeremycryan/social-clustering/blob/master/images/clustering2d2.png?raw=true)
+
+*Pluralistic behavior is limited in the 2D model.*
+
+In an effort to quantify this behavior, I used mean shift clustering to
+count the number of agent clusters in the opinion space over time.
+This algorithm counts clusters by simulating an array of points that
+move toward areas of higher point density, eventually converging on
+some number of maxima, then counting them.
+
+Below is a plot of clustering over time.
+
+![Clustering over time](https://github.com/jeremycryan/social-clustering/blob/master/images/number_of_clusters_over_time.png?raw=true)
+
+The first point of interest on this plot is that the number of clusters
+is changing over time, sometimes substantially. It has a minimum of
+one cluster (as it contains at least one point at all times), and
+a maximum of five within the simulation period.
+
+It is worth noting that some of these clusters were not extremely
+obvious, visually. They often separated areas of different agent
+density within a larger cluster. However, it is still a useful metric
+to differentiate a monoculture, in which all agents share highly similar
+opinions, to one with some variation that changes over time.
 
 ### Bibliography
 
